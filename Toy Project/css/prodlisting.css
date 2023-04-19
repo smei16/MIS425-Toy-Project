@@ -1,6 +1,7 @@
 body {
     background-color: #FEFCF3;
 }
+
 main {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -21,6 +22,7 @@ img {
     height: 100%;
     border: 2px solid #E8A0BF;
 }
+
 @media only screen and (max-width: 375px) {   
     main {
         display: grid;
@@ -29,7 +31,12 @@ img {
 }
 
 }
+
 button:hover {
     color: black;
-    background-color: #E8A0BF;
+    background-color: #DBA39A;
+}
+
+button {
+    border-radius: 7px;
 }
