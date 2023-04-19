@@ -60,3 +60,8 @@ fieldset {
         cursor: pointer;
         font-weight: bold;
 }
+
+#btn button:hover {
+    background-color: #f0bdbd;
+    cursor:pointer;
+}
