@@ -1,6 +1,10 @@
-body {
-    background-color: #C0DBEA;
+header h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+    background-color: #FEFCF3;
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -19,8 +23,13 @@ section {
 img {
     width: 100%;
     height: 100%;
-    border: 2px solid #E8A0BF;
+    border: 3px solid #E8A0BF;
 }
+
+img:hover {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 375px) {   
     main {
         display: grid;
@@ -29,7 +38,13 @@ img {
 }
 
 }
+
 button:hover {
     color: black;
-    background-color: #E8A0BF;
+    background-color: #DBA39A;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 7px;
 }
