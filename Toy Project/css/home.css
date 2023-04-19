@@ -91,3 +91,8 @@ body {
     background-color: #f0bdbd;
     cursor: pointer;
   }
+
+  a{
+    text-decoration: none;
+    color: white
+  }
