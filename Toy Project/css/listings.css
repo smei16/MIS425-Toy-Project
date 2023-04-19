@@ -12,14 +12,31 @@ main {
     width: 50%;
     flex-direction: column;
 }
-
 fieldset {
-    width: 10%;
     display: flex;
+    width: fit-content;
+    border-color: #E8A0BF;
 }
-
 .b {
     display: flex;
     justify-content: center;
     width: 75%;
+}
+#amount {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#amount input {
+    width: 35px;
+}
+.a {
+    color: #C0DBEA;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Lucida Handwriting', cursive;
+}
+#price p:nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
 }
