@@ -1,0 +1,22 @@
+ul{
+    border: #FDF4F5;
+    border-style: solid;
+    padding: 0px;
+    margin: 0px;
+    background-color: #BA90C6;
+    border-radius: 100px;
+    border-color: #C0DBEA;
+    border-width: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    font-size: xx-large;
+    margin: 120px;
+}
+
+li a{
+color: white;
+border-radius: 100px solid white;
+text-decoration: none;
+}
