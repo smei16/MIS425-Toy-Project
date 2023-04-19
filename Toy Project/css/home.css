@@ -17,7 +17,7 @@ body {
   }
   
   main {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 2em;
   }
@@ -33,6 +33,13 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
   
+  .bestseller-container {
+    background-color: #F5EBE0;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+
   h2 {
     font-size: 1.5em;
     margin-top: 0;
@@ -77,5 +84,10 @@ body {
     background-color: #DBA39A;
     border: none;
     color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #f0bdbd;
     cursor: pointer;
   }
