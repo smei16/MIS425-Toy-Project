@@ -1,15 +1,42 @@
-#toyMain {
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
+main {
+    display: flex;
 }
-.a {
-    grid-column: 2;
+#toyMain {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+}
+#toyForm{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+fieldset {
+    display: flex;
+    width: fit-content;
+    border-color: #E8A0BF;
 }
 .b {
-    grid-column: 1;
-    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    width: 75%;
 }
-.c {
-    grid-column: 2;
-    grid-row: 2;
+#amount {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#amount input {
+    width: 35px;
+}
+.a {
+    color: #C0DBEA;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Lucida Handwriting', cursive;
+}
+#price p:nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
 }
