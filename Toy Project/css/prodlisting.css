@@ -1,9 +1,11 @@
 header h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
     background-color: #FEFCF3;
 }
+
 
 main {
     display: grid;
@@ -38,6 +40,7 @@ img:hover {
 }
 
 }
+
 
 button:hover {
     color: black;
