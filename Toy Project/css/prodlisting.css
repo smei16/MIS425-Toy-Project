@@ -30,6 +30,8 @@ img {
 
 img:hover {
     cursor: pointer;
+    filter: brightness(85%)
+
 }
 
 @media only screen and (max-width: 375px) {   
