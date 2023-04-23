@@ -65,3 +65,16 @@ fieldset {
     background-color: #f0bdbd;
     cursor:pointer;
 }
+
+#pricediv {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin: 0;
+}
+#pricediv p:first-child {
+    margin-top: 0;
+}
+#pricenumber {
+    margin-top: 0;
+}
