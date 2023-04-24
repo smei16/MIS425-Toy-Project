@@ -11,7 +11,11 @@
     justify-content: center;
     border: 100px #DBA39A;
     border-radius:50px;
+    position: sticky;
+    top: 0; 
+    z-index: 100; 
   }
+  
 
   #navbar li {
     flex-grow: 1;
