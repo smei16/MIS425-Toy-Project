@@ -12,6 +12,11 @@
     border: 100px #DBA39A;
     border-radius:50px;
   }
+
+  #navbar li {
+    flex-grow: 1;
+    text-align: center;
+  }
   
   #navbar li {
     margin-right: 15px;
