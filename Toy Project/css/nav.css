@@ -1,0 +1,42 @@
+#navbar {
+    background-color: #DBA39A;
+    padding: 10px 0;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border: 100px #DBA39A;
+    border-radius:50px;
+    position: sticky;
+    top: 0; 
+    z-index: 100; 
+  }
+  
+
+  #navbar li {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  #navbar li {
+    margin-right: 15px;
+    font-size: xx-large;
+  }
+  
+  #navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  #navbar a:hover {
+    color: white;
+  }

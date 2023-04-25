@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Checkout Cart</title>
+        <link rel="stylesheet" href="./css/checkout.css"/>
+    </head>
+    <body>
+        <head>
+            <header>
+                <h1>Checkout Cart</h1>
+            </header>
+        </head>
+        <main>
+            <section id="emptycartsection">
+                <div id="emptycart">
+                    <p>Your cart is currently empty</p>
+                    <p>Please view our amazing collection before checking out!</p>
+                    <div>
+                        <button id="home"><a href="./home.html">Return to Shop</a></button>
+                    </div>
+                </div>
+            </section>
+            <section id="cartSection">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Subtotal</td>
+                        </tr>
+                        <tr>
+                            <td>Tax</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <section>
+                    <div id="divBtn">
+                        <button id="clearCartBtn">Clear Cart</button>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <script src="./js/checkout.js"></script>
+    </body>
+    </html>

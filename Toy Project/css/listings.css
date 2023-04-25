@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFCF3;
+  }
+main {
+    display: flex;
+}
+#toyMain {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+}
+#toyForm{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+fieldset {
+    display: flex;
+    width: fit-content;
+    border-color: #E8A0BF;
+}
+.b {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+#amount {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#amount input {
+    width: 35px;
+}
+.a {
+    color: #C0DBEA;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Lucida Handwriting', cursive;
+}
+#price p:nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
+}
+#btn button {
+        margin: 0;
+        padding: 0;
+        border-radius: 15px;
+        width: 100px;
+        height: 50px;
+        font-size: .75em;
+        text-align: center;
+        background-color: #DBA39A;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+}
+
+#btn button:hover {
+    background-color: #f0bdbd;
+    cursor:pointer;
+}
+
+#pricediv {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin: 0;
+}
+#pricediv p:first-child {
+    margin-top: 0;
+}
+#pricenumber {
+    margin-top: 0;
+}
