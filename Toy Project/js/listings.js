@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
             pricenumber.textContent = '20';
           }
     });
-    const addToCart = document.querySelector('#addToCart');
-    addToCart.addEventListener('click', function(){
+    const myForm = document.querySelector('#myForm');
+    myForm.addEventListener('submit', function(){
         const toyName = document.querySelector('.a p').textContent;
         let toyPrice = parseInt(document.querySelector('#pricenumber').textContent);
         let quantity = parseInt(document.querySelector('#quantity').value);
