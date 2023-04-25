@@ -7,7 +7,7 @@ body {
   
   header {
     background-color: #F5EBE0;
-    padding: 1em;
+    padding: 10px;
   }
   
   h1 {
@@ -22,7 +22,7 @@ body {
     padding: 2em;
   }
   
-  section {
+  main section {
     margin-bottom: 2em;
   }
 
