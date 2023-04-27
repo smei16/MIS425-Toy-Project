@@ -18,9 +18,10 @@
 
   #navbar li {
     flex-grow: 1;
-    text-align: center;
-    margin-right: 5px;
-    font-size: large;
+      text-align: center;
+      margin-right: 10px;
+      font-size: x-large;
+  
   }
   
   #navbar li:last-child {
