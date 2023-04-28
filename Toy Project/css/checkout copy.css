@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEFCF3;
+  }
+
+#home {
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: .75em;
+    text-align: center;
+    background-color: #DBA39A;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#cartSection {
+    display: flex;
+    justify-content: center;
+}
+
+#checkoutTable {
+    border-collapse: collapse;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+#checkoutTable tbody tr td:first-child {
+    border-width: 1px 0px;
+}
+
+#checkoutTable tbody tr td:nth-child(2) {
+    border-width: 1px 0 0 0;
+}
+
+#checkoutTable tbody tr td:nth-child(3) {
+    border-width: 1px 0px;
+}
+
+#checkoutTable tbody tr td:nth-child(4) {
+    border-width: 1px 0px;
+}
+
+.priceCol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#quantity1, #quantity2, #quantity3, #quantity4, #quantity5, #quantity6 {
+    width: 35px;
+}
+
+#subtotalDiv1, #subtotalDiv2, #subtotalDiv3, #subtotalDiv4, #subtotalDiv5, #subtotalDiv6 {
+    display: flex;
+    justify-content: center;
+}
+
+#divBtn {
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+}
+
+#subtotalDiv, #totalDiv, #taxDiv {
+    display: flex;
+    justify-content: center;
+}

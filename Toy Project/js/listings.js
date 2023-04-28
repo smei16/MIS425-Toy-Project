@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
         pricenumberInt = 20;
         pricenumber.textContent = '20';
     });
-    quantity.addEventListener('input', function(event){
-        let input = event.target.value;
+    quantity.addEventListener('input', function(e){
+        let input = e.target.value;
         let numberValue = parseInt(input);
         if (!isNaN(numberValue)) {
             pricenumber.textContent = numberValue*pricenumberInt;
@@ -33,19 +33,27 @@ document.addEventListener('DOMContentLoaded', function() {
           }
     });
     const myForm = document.querySelector('#myForm');
-    myForm.addEventListener('submit', function(){
+    myForm.addEventListener('submit', function(e){
+        e.preventDefault();
         const toyName = document.querySelector('.a p').textContent;
         let toyPrice = parseInt(document.querySelector('#pricenumber').textContent);
         let quantity = parseInt(document.querySelector('#quantity').value);
-        let sizeRadio = document.querySelector('#sizeFieldset input').value;
+        let sizeRadio = document.querySelector('#sizeFieldset input:checked');
+        if (quantity === 0 || !sizeRadio || !sizeRadio.value) {
+          document.querySelector('#quantity').classList.add('empty');
+          document.querySelector('#sizeFieldset').classList.add('empty');
+          return;
+        }
         let cartObj = {
-            name: toyName,
-            size: sizeRadio,
-            price: toyPrice,
-            quantity: quantity,
+          name: toyName,
+          size: sizeRadio.value,
+          price: toyPrice,
+          quantity: quantity,
         };
         let cartObjJSON = JSON.parse(localStorage.getItem('cartObjJSON')) || [];
         cartObjJSON.push(cartObj);
-        localStorage.setItem('cartItems', JSON.stringify(cartObjJSON));
-    })
+        localStorage.setItem('cartObjJSON', JSON.stringify(cartObjJSON));
+      });
+      
+      
 })
