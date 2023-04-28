@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Checkout Cart</title>
+        <link rel="stylesheet" href="./css/checkout copy.css"/>
+    </head>
+    <body>
+        <head>
+            <header>
+                <h1>Checkout Cart</h1>
+            </header>
+        </head>
+        <main>
+            <section id="cartSection">
+                <form id="checkout" action="" method="post">
+                    <table id="checkoutTable" border="1">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Subtotal</td>
+                                <td>
+                                    <div id="subtotalDiv">
+                                        <p>$</p>
+                                        <p id="subtotalFoot">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">Tax</td>
+                                <td>
+                                    <div id="taxDiv">
+                                        <p>$</p>
+                                        <p id="taxP">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">Total</td>
+                                <td>
+                                    <div id="totalDiv">
+                                        <p>$</p>
+                                        <p id="totalP">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <img src="./images/plush1.png" alt="Toy Name" height="200" width="200">
+                                        <figcaption>Toy 1</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <div class="priceCol">
+                                        <p>$</p>
+                                        <p id="price1">20</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="toy1Quantity">
+                                        <label for="quantity1">Quantity:</label>
+                                        <input type="number" id="quantity1" name="quantity1" min="1"/>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="subtotalDiv1">
+                                        <p>$</p>
+                                        <p id="subtotal1">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <img src="./images/plush2.png" alt="Toy Name 2" height="200" width="200">
+                                        <figcaption>Toy 2</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <div class="priceCol">
+                                        <p>$</p>
+                                        <p id="price2">20</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="toy2Quantity">
+                                        <label for="quantity2">Quantity:</label>
+                                        <input type="number" id="quantity2" name="quantity2" min="1"/>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="subtotalDiv2">
+                                        <p>$</p>
+                                        <p id="subtotal2">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <img src="./images/plush3.png" alt="Toy Name 3" height="200" width="200">
+                                        <figcaption>Toy 3</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <div class="priceCol">
+                                        <p>$</p>
+                                        <p id="price3">20</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="toy3Quantity">
+                                        <label for="quantity3">Quantity:</label>
+                                        <input type="number" id="quantity3" name="quantity3" min="1"/>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="subtotalDiv3">
+                                        <p>$</p>
+                                        <p id="subtotal3">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <img src="./images/plush4.png" alt="Toy Name 4" height="200" width="200">
+                                        <figcaption>Toy 4</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <div class="priceCol">
+                                        <p>$</p>
+                                        <p id="price4">20</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="toy4Quantity">
+                                        <label for="quantity4">Quantity:</label>
+                                        <input type="number" id="quantity4" name="quantity4" min="1"/>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="subtotalDiv4">
+                                        <p>$</p>
+                                        <p id="subtotal4">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <img src="./images/plush5.png" alt="Toy Name 5" height="200" width="200">
+                                        <figcaption>Toy 5</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <div class="priceCol">
+                                        <p>$</p>
+                                        <p id="price5">20</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="toy5Quantity">
+                                        <label for="quantity5">Quantity:</label>
+                                        <input type="number" id="quantity5" name="quantity5" min="1"/>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="subtotalDiv5">
+                                        <p>$</p>
+                                        <p id="subtotal5">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <img src="./images/plush6.png" alt="Toy Name 6" height="200" width="200">
+                                        <figcaption>Toy 6</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <div class="priceCol">
+                                        <p>$</p>
+                                        <p id="price6">20</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="toy6Quantity">
+                                        <label for="quantity6">Quantity:</label>
+                                        <input type="number" id="quantity6" name="quantity6" min="1"/>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="subtotalDiv6">
+                                        <p>$</p>
+                                        <p id="subtotal6">0</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                <section>
+                    <div id="divBtn">
+                        <button id="submit">Update Cart</button>
+                        <button id="clearCartBtn" type="reset">Clear Cart</button>
+                    </div>
+                </section>
+                </form>
+            </section>
+            <section id="shippingInfo">
+                <header>
+                    <h2>Shipping Information:</h2>
+                </header>
+                <form id="shippingInfoForm" action="" method="post">
+                    <div id="shippingformDiv">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Full Name">
+                        <label for="address">Street Address:</label>
+                        <input type="text" id="address" name="address" placeholder="Enter Your Address">
+                        <div id="citystate">
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city" placeholder="Enter Your City">
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" placeholder="Enter Your State">
+                        </div>
+                        <div id="zipphone">
+                            <label for="zipCode">Zip Code:</label>
+                            <input type="number" id="zipCode" name="zipCode" placeholder="Enter Your Zip Code">
+                            <label for="telephone">Phone Number:</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="(XXX)XXX-XXXX">
+                        </div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                        <div id="checkboxDiv">
+                            <label for="sameBilling"><input type="checkbox" id="sameBilling" name="sameBilling">Use a Different Billing Address</label>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section id="billinginfo">
+                <header>
+                    <h2>Billing Information:</h2>
+                </header>
+                <form id="billingInfoForm" action="" method="post">
+                    <div id="billingformDiv">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="billName" name="name" placeholder="Enter Your Full Name">
+                        <label for="address">Street Address:</label>
+                        <input type="text" id="billAddress" name="address" placeholder="Enter Your Address">
+                        <div id="billCitystate">
+                            <label for="city">City:</label>
+                            <input type="text" id="billCity" name="city" placeholder="Enter Your City">
+                            <label for="state">State:</label>
+                            <input type="text" id="billState" name="state" placeholder="Enter Your State">
+                        </div>
+                        <div id="billZipphone">
+                            <label for="zipCode">Zip Code:</label>
+                            <input type="number" id="billZipCode" name="zipCode" placeholder="Enter Your Zip Code">
+                            <label for="telephone">Phone Number:</label>
+                            <input type="tel" id="billTelephone" name="telephone" placeholder="(XXX)XXX-XXXX">
+                        </div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="billEmail" name="email" placeholder="Enter Your Email">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script src="./js/checkout copy.js"></script>
+    </body>
+    </html>
