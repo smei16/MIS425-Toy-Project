@@ -59,10 +59,6 @@ body {
     justify-content: space-between;
   }
   
-  li {
-    margin-bottom: 1em;
-  }
-  
   img {
     max-width: 100%;
     height: auto;

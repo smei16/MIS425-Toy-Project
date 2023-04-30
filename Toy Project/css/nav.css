@@ -6,21 +6,21 @@
 #navbar ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   display: flex;
   background-color: #F5EBE0;
-  border: 50px #DBA39A;
   position: sticky;
   top: 0;
   z-index: 100;
   justify-content: space-evenly;
   width: 100%;
+  padding: 30px;
 }
 
 #navbar li {
   flex-grow: 1;
-  margin-right: 10px;
   font-size: x-large;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar li:last-child {
