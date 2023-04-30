@@ -19,8 +19,9 @@
 
 #navbar li {
   flex-grow: 1;
-  margin-right: 10px;
   font-size: x-large;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar li:last-child {
