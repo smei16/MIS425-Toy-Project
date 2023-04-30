@@ -4,6 +4,11 @@ body {
     padding: 0;
     background-color: #FEFCF3;
   }
+
+header {
+    background-color: #F5EBE0;
+    padding: 10px;
+}
 main {
     display: flex;
 }
