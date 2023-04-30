@@ -354,6 +354,6 @@ document.addEventListener('DOMContentLoaded', function(){
         cvv.className='';
         month.className='';
         year.className='';
-    })
-
+    });
+    
 })
