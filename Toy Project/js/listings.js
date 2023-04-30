@@ -33,27 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
           }
     });
     const myForm = document.querySelector('#myForm');
-    myForm.addEventListener('submit', function(e){
-        e.preventDefault();
-        const toyName = document.querySelector('.a p').textContent;
-        let toyPrice = parseInt(document.querySelector('#pricenumber').textContent);
-        let quantity = parseInt(document.querySelector('#quantity').value);
-        let sizeRadio = document.querySelector('#sizeFieldset input:checked');
-        if (quantity === 0 || !sizeRadio || !sizeRadio.value) {
-          document.querySelector('#quantity').classList.add('empty');
-          document.querySelector('#sizeFieldset').classList.add('empty');
-          return;
-        }
-        let cartObj = {
-          name: toyName,
-          size: sizeRadio.value,
-          price: toyPrice,
-          quantity: quantity,
-        };
-        let cartObjJSON = JSON.parse(localStorage.getItem('cartObjJSON')) || [];
-        cartObjJSON.push(cartObj);
-        localStorage.setItem('cartObjJSON', JSON.stringify(cartObjJSON));
-      });
       
       
 })

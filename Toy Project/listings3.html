@@ -5,22 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Toy 1</title>
         <link rel="stylesheet" href="./css/listings.css"/>
+            <link rel="stylesheet" href="./css/nav.css">
     </head>
     <body>
         <header>
             <nav id="navbar">
                 <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./prodlisting.html">Toys</li>
-                    <li><a href="#">Order Now</a></li>
-                    <li> <a href="#">About Us</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="prodlisting.html">Shop All</li>
+                    <li><a href="checkout copy.html">Your cart</a></li>
+                    <li> <a href="aboutus.html">About Us</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section id="toyMain">
                 <div class="b">
-                    <img src="./images/plush3.png" alt="Toy1" width="400" height="400">
+                    <img src="./images/plush3.png" alt="Toy1" width="600" height="600">
                 </div>
             </section>
             <section id="toyForm">
@@ -29,31 +30,21 @@
                         <p>Toy Name</p>
                     </div>
                     <div class="lorem">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis elit nunc, in iaculis tortor elementum eget. Aenean semper ipsum non scelerisque pharetra. Proin pulvinar non justo sit amet pretium. Nulla et cursus nisi. Sed nisi mi, varius nec lectus a, suscipit rutrum quam. Cras rutrum vitae elit at condimentum. Donec eu dui a ante tempus tempus non ut dui. Donec eleifend mattis velit.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis elit nunc, in iaculis tortor elementum eget. Aenean semper ipsum non scelerisque pharetra. Proin pulvinar non justo sit amet pretium. Nulla et cursus nisi. Sed nisi mi, varius nec lectus a, suscipit rutrum quam. Cras rutrum vitae elit at condimentum. Donec eu dui a ante tempus tempus non ut dui. Donec eleifend mattis velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis elit nunc, in iaculis tortor elementum eget. Aenean semper ipsum non scelerisque pharetra. Proin pulvinar non justo sit amet pretium. Nulla et cursus nisi. Sed nisi mi, varius nec lectus a, suscipit rutrum quam. Cras rutrum vitae elit at condimentum. Donec eu dui a ante tempus tempus non ut dui. Donec eleifend mattis velit.</p>
                     </div>
                 </div>
-                <form action="" method="post">
-                    <div>
-                        <fieldset>
-                            <legend>Select Size:</legend>
-                            <input type="radio" id="sizeSmall" name="size" value='12"'/><label for="sizeSmall">12"</label>
-                            <input type="radio" id="sizeMedium" name="size" value='24"'/><label for="sizeSmall">24"</label>
-                            <input type="radio" id="sizeLarge" name="size" value='48"'/><label for="sizeSmall">48"</label>
-                        </fieldset>
-                    </div>
+                <div>
                     <section id="price">
                         <p>In stock</p>
-                        <p>$20</p>
-                    </section>
-                    <section id="amount">
-                        <label for="quantity">Quantity:</label>
-                        <input type="number" id="quantity" name="quantity" min="0"/>
+                        <div id="pricediv">
+                            <p>$</p>
+                            <p id="pricenumber">20</p>
+                        </div>
                     </section>
                     <div id="btn">
-                        <button type="submit">Add to Cart</button>
-                        <button type="reset">Clear</button>
+                        <button><a href='checkout copy.html'>Go to Order Form</a></button>
                     </div>
-                </form>
+                </div>
             </section>
         </main>
         <script src="./js/listings.js"></script>

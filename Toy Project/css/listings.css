@@ -61,6 +61,11 @@ fieldset {
         font-weight: bold;
 }
 
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
 #btn button:hover {
     background-color: #f0bdbd;
     cursor:pointer;
