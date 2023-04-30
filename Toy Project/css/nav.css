@@ -1,13 +1,12 @@
 #navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
   #navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
     background-color: #F5EBE0;
     border: 50px #DBA39A;
     position: sticky;
