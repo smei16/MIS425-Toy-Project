@@ -7,13 +7,14 @@ body {
 main {
     display: flex;
 }
+
 #toyMain {
     display: flex;
     flex-direction: row;
     width: 50%;
     justify-content: center;
-}
-#toyForm{
+  }
+  #toyForm{
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -26,7 +27,8 @@ fieldset {
 .b {
     display: flex;
     justify-content: center;
-    width: 75%;
+    max-width: 100%;
+    margin: auto;
 }
 #amount {
     display: flex;
@@ -83,3 +85,9 @@ fieldset {
 #pricenumber {
     margin-top: 0;
 }
+.lorem {
+    border: 2px solid #DBA39A;
+    padding: 20px;
+    background-color: #FEFCF3;
+  }
+  
