@@ -3,17 +3,20 @@ body {
     background-color: #FEFCF3;
   }
   
+#personalInfoDiv{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 50%;
+}
+
   /*Shipping info block style */
   #shippingInfo {
     background-color: #F5EBE0;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding: 20px;
   }
   
   /*Styling for form input labels*/
   label {
-    display: block;
+    display: inline-block;
     margin-bottom: 5px;
   }
   
@@ -31,9 +34,6 @@ body {
   /*Billing information block */
   #billinginfo {
     background-color: #F5EBE0;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding: 20px;
   }
   
   /* Style the credit card form inputs */
