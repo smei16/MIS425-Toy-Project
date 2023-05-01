@@ -11,22 +11,11 @@ body {
   /*Shipping info block style */
   #shippingformDiv {
     background-color: #F5EBE0;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  h2{
-    margin-top: 5px;
   }
   
   /*Styling for form input labels*/
   label {
-    display: inline-block;
-    margin-bottom: 5px;
+    text-align: center;
   }
 
   #quantity1 {
@@ -54,15 +43,12 @@ body {
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
-
-  /*Credit information block */
-  #creditDiv {
-    background-color: #F5EBE0;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  
+  /* Style the credit card form inputs */
+  #creditDiv input[type="text"],
+  #creditDiv input[type="number"] {
+    width: 45%;
+    margin-right: 10px;
   }
   
   /* Submit and reset buttons */
