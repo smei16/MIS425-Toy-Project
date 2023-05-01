@@ -354,6 +354,20 @@ document.addEventListener('DOMContentLoaded', function(){
         cvv.className='';
         month.className='';
         year.className='';
+        const p = document.querySelector('#infoBtn p');
+        p.textContent = '';
     });
-    
+
+    shippingInfoForm.addEventListener('submit', function(){
+        let quantityArray = [quantity1.value, quantity2.value, quantity3.value, quantity4.value, quantity5.value, quantity6.value];
+
+        if (quantityArray.every(i => i === '' )) {
+            const p = document.querySelector('#infoBtn p');
+            p.textContent = 'Please add at least one item to cart';
+        } else {
+            const p = document.querySelector('#infoBtn p');
+            p.textContent = '';
+        }
+    })
+
 })

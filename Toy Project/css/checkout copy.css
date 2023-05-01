@@ -1,6 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #FEFCF3;
+    margin: 0;
+    padding: 0;
+  }
+
+header nav {
+    background-color: #F5EBE0;
+    padding: 10px;
   }
   
 #personalInfoDiv{
@@ -58,12 +65,17 @@ body {
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 3px;
     cursor: pointer;
   }
   
   #infoBtn button:hover {
     background-color: #f0bdbd;
+  }
+
+  #infoBtn p {
+    font-style: italic;
   }
 
 #checkoutTable {
@@ -112,6 +124,7 @@ figcaption {
     color: #fff;
     border: none;
     padding: 10px 20px;
+    margin-top: 10px;
     margin-right: 10px;
     border-radius: 3px;
     cursor: pointer;
