@@ -1,6 +1,9 @@
-header h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #DBA39A;
+    text-align: left;
+  }
 
 body {
     font-family: Arial, sans-serif;
