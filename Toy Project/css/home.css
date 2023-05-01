@@ -12,8 +12,9 @@ body {
   
   h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 30px;
     color: #DBA39A;
+    text-align: left;
   }
   
   main {
