@@ -7,17 +7,25 @@ body {
     border: 1px solid #ddd;
     border-radius: 20px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
 }
 
   /*Shipping info block style */
   #shippingInfo {
     background-color: #F5EBE0;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+  }
+
+  #shippingInfoForm {
+    margin-left: 10px;
   }
   
   /*Styling for form input labels*/
   label {
-    display: inline-block;
-    margin-bottom: 5px;
+    text-align: center;
   }
   
   /* Form input style*/
@@ -39,7 +47,7 @@ body {
   /* Style the credit card form inputs */
   #creditDiv input[type="text"],
   #creditDiv input[type="number"] {
-    width: 45%;
+    width: 30%;
     margin-right: 10px;
   }
   
