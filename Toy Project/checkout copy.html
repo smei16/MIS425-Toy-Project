@@ -6,11 +6,9 @@
         <link rel="stylesheet" href="./css/checkout copy.css"/>
     </head>
     <body>
-        <head>
-            <header>
-                <h1>Checkout Cart</h1>
-            </header>
-        </head>
+        <header>
+            <h1>Checkout Cart</h1>
+        </header>
         <main>
             <section id="cartSection">
                 <form id="checkout" action="" method="post">
@@ -219,96 +217,95 @@
                 </section>
                 </form>
             </section>
-            <div id="personalInfoDiv">
-                <section id="shippingInfo">
-                    <header>
-                        <h2>Shipping Information:</h2>
-                    </header>
-                    <form id="shippingInfoForm" action="" method="post">
-                        <div id="shippingformDiv">
-                            <label for="name">Full Name:</label>
-                            <input type="text" id="name" name="name" placeholder="Enter Your Full Name">
-                            <label for="address">Street Address:</label>
-                            <input type="text" id="address" name="address" placeholder="Enter Your Address">
-                            <div id="citystate">
-                                <label for="city">City:</label>
-                                <input type="text" id="city" name="city" placeholder="Enter Your City">
-                                <label for="state">State:</label>
-                                <input type="text" id="state" name="state" placeholder="Enter Your State">
-                            </div>
-                            <div id="zipphone">
-                                <label for="zipCode">Zip Code:</label>
-                                <input type="number" id="zipCode" name="zipCode" placeholder="Enter Your Zip Code">
-                                <label for="telephone">Phone Number:</label>
-                                <input type="tel" id="telephone" name="telephone" placeholder="(XXX)XXX-XXXX">
-                            </div>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" placeholder="Enter Your Email">
-                            <div id="checkboxDiv">
-                                <label for="sameBilling"><input type="checkbox" id="sameBilling" name="sameBilling">Use the Same Address</label>
-                            </div>
+            
+            <section id="shippingInfo">
+                <form id="shippingInfoForm" action="" method="post">
+                    <div id="shippingformDiv">
+                        <header>
+                            <h2>Shipping Information:</h2>
+                        </header>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Full Name">
+                        <label for="address">Street Address:</label>
+                        <input type="text" id="address" name="address" placeholder="Enter Your Address">
+                        <div id="citystate">
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city" placeholder="Enter Your City">
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" placeholder="Enter Your State">
                         </div>
-                        <div id="billingInfoForm">
-                            <section id="billinginfo">
-                                <header>
-                                    <h2>Billing Information:</h2>
-                                </header>
-                                <div id="billingformDiv">
-                                    <label for="name">Full Name:</label>
-                                    <input type="text" id="billName" name="name" placeholder="Enter Your Full Name">
-                                    <label for="address">Street Address:</label>
-                                    <input type="text" id="billAddress" name="address" placeholder="Enter Your Address">
-                                    <div id="billCitystate">
-                                        <label for="city">City:</label>
-                                        <input type="text" id="billCity" name="city" placeholder="Enter Your City">
-                                        <label for="state">State:</label>
-                                        <input type="text" id="billState" name="state" placeholder="Enter Your State">
-                                    </div>
-                                    <div id="billZipphone">
-                                        <label for="zipCode">Zip Code:</label>
-                                        <input type="number" id="billZipCode" name="zipCode" placeholder="Enter Your Zip Code">
-                                        <label for="telephone">Phone Number:</label>
-                                        <input type="tel" id="billTelephone" name="telephone" placeholder="(XXX)XXX-XXXX">
-                                    </div>
-                                    <label for="email">Email:</label>
-                                    <input type="email" id="billEmail" name="email" placeholder="Enter Your Email">
-                                </div>
-                            </section>
+                        <div id="zipphone">
+                            <label for="zipCode">Zip Code:</label>
+                            <input type="number" id="zipCode" name="zipCode" placeholder="Enter Your Zip Code">
+                            <label for="telephone">Phone Number:</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="(XXX)XXX-XXXX">
                         </div>
-                        <section id="creditSection">
-                            <div id="creditDiv">
-                                <header>
-                                    <h2>Credit Card Information:</h2>
-                                </header>
-                                <div id="nameDiv">
-                                    <label for="firstName">First Name:</label>
-                                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
-                                    <label for="lastName">Last Name:</label>
-                                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                        <div id="checkboxDiv">
+                            <label for="sameBilling"><input type="checkbox" id="sameBilling" name="sameBilling">Use the Same Address For Billing</label>
+                        </div>
+                    </div>
+                    <div id="billingInfoForm">
+                        <section id="billinginfo">
+                            <header>
+                                <h2>Billing Information:</h2>
+                            </header>
+                            <div id="billingformDiv">
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="billName" name="name" placeholder="Enter Your Full Name">
+                                <label for="address">Street Address:</label>
+                                <input type="text" id="billAddress" name="address" placeholder="Enter Your Address">
+                                <div id="billCitystate">
+                                    <label for="city">City:</label>
+                                    <input type="text" id="billCity" name="city" placeholder="Enter Your City">
+                                    <label for="state">State:</label>
+                                    <input type="text" id="billState" name="state" placeholder="Enter Your State">
                                 </div>
-                                <div id="creditCardInfoDiv">
-                                    <label for="creditCardNum">Credit Card Number:</label>
-                                    <input type="text" id="creditCardNum" name="creditCardNum">
-                                    <label for="cvv">CVV:</label>
-                                    <input type="number" id="cvv" name="cvv">
+                                <div id="billZipphone">
+                                    <label for="zipCode">Zip Code:</label>
+                                    <input type="number" id="billZipCode" name="zipCode" placeholder="Enter Your Zip Code">
+                                    <label for="telephone">Phone Number:</label>
+                                    <input type="tel" id="billTelephone" name="telephone" placeholder="(XXX)XXX-XXXX">
                                 </div>
-                                <div id="dateDiv">
-                                    <label for="month">Month:</label>
-                                    <input type="number" id="month" min="1" max="12" name="month" placeholder="mm">
-                                    <label for="year">Year:</label>
-                                    <input type="number" id="year" min="2023" placeholder="yyyy">
-                                </div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="billEmail" name="email" placeholder="Enter Your Email">
                             </div>
                         </section>
-                        <section id="infoBtn">
-                            <div>
-                                <button id="infoSubmit" type='submit'>Submit Order</button>
-                                <button id="infoReset" type="reset">Clear Information</button>
+                    </div>
+                    <section id="creditSection">
+                        <div id="creditDiv">
+                            <header>
+                                <h2>Credit Card Information:</h2>
+                            </header>
+                            <div id="nameDiv">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
                             </div>
-                        </section>
-                    </form>
-                </section>
-            </div>
+                            <div id="creditCardInfoDiv">
+                                <label for="creditCardNum">Credit Card Number:</label>
+                                <input type="text" id="creditCardNum" name="creditCardNum">
+                                <label for="cvv">CVV:</label>
+                                <input type="number" id="cvv" name="cvv">
+                            </div>
+                            <div id="dateDiv">
+                                <label for="month">Month:</label>
+                                <input type="number" id="month" min="1" max="12" name="month" placeholder="mm">
+                                <label for="year">Year:</label>
+                                <input type="number" id="year" min="2023" placeholder="yyyy">
+                            </div>
+                        </div>
+                    </section>
+                    <section id="infoBtn">
+                        <div>
+                            <button id="infoSubmit" type='submit'>Submit Order</button>
+                            <button id="infoReset" type="reset">Clear Information</button>
+                        </div>
+                    </section>
+                </form>
+            </section>
         </main>
         <script src="./js/checkout copy.js"></script>
     </body>

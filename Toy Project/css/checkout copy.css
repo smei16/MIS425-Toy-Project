@@ -2,22 +2,35 @@ body {
     font-family: Arial, sans-serif;
     background-color: #FEFCF3;
   }
-  
-#personalInfoDiv{
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    width: 50%;
+
+  main {
+    display: flex;
+    justify-content: space-evenly;
 }
 
   /*Shipping info block style */
-  #shippingInfo {
+  #shippingformDiv {
     background-color: #F5EBE0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  h2{
+    margin-top: 5px;
   }
   
   /*Styling for form input labels*/
   label {
     display: inline-block;
     margin-bottom: 5px;
+  }
+
+  #quantity1 {
+    display: inline-block;
   }
   
   /* Form input style*/
@@ -34,13 +47,22 @@ body {
   /*Billing information block */
   #billinginfo {
     background-color: #F5EBE0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
-  
-  /* Style the credit card form inputs */
-  #creditDiv input[type="text"],
-  #creditDiv input[type="number"] {
-    width: 45%;
-    margin-right: 10px;
+
+  /*Credit information block */
+  #creditDiv {
+    background-color: #F5EBE0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
   
   /* Submit and reset buttons */
@@ -60,6 +82,30 @@ body {
 
 #checkoutTable {
     border-collapse: collapse;
+}
+
+#checkoutTable input[type="number"] {
+  width: 40px;
+}
+
+#checkoutTable label {
+  display: block;
+}
+
+#checkoutTable th {
+  text-align: left;
+  padding: 10px;
+  background-color: #F5EBE0;
+}
+
+#checkoutTable td {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#checkoutTable tfoot td {
+  font-weight: bold;
+  text-align: right;
 }
 
 figcaption {
@@ -83,21 +129,6 @@ figcaption {
     border-width: 1px 0px;
 }
 
-.priceCol {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#quantity1, #quantity2, #quantity3, #quantity4, #quantity5, #quantity6 {
-    width: 35px;
-}
-
-#subtotalDiv1, #subtotalDiv2, #subtotalDiv3, #subtotalDiv4, #subtotalDiv5, #subtotalDiv6 {
-    display: flex;
-    justify-content: center;
-}
-
 /* Update and reset cart buttons */
 #divBtn button {
     background-color: #DBA39A;
@@ -109,20 +140,33 @@ figcaption {
     cursor: pointer;
   }
 
-#subtotalDiv, #totalDiv, #taxDiv {
-    display: flex;
-    justify-content: center;
-}
-
-main {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#infoBtn {
+#divBtn, #infoBtn {
     display: flex;
     justify-content: right;
     margin-top: 15px;
+}
+
+.priceCol {
+  display: flex;
+  align-items: center;
+}
+
+#subtotalDiv,
+#taxDiv,
+#totalDiv,
+#subtotalDiv1,
+#subtotalDiv2,
+#subtotalDiv3,
+#subtotalDiv4,
+#subtotalDiv5,
+#subtotalDiv6 {
+  display: flex;
+  justify-content: center;
+}
+
+#cartSection img {
+  display: block;
+  margin: 0 auto;
 }
 
 .error {
