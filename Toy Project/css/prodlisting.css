@@ -58,13 +58,20 @@ img:hover {
 
 button:hover {
     color: black;
-    background-color: #DBA39A;
+    background-color: #f0bdbd;
     cursor: pointer;
 }
 
 button {
-    border-radius: 7px;
-}
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #DBA39A;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
 
 a {
     text-decoration: none;

@@ -215,3 +215,8 @@ margin: 0 auto;
   display: flex;
   align-items: center;
 }
+
+img:hover {
+  cursor: pointer;
+  filter: brightness(85%)
+}
