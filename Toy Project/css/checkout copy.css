@@ -8,7 +8,7 @@ body {
 header nav {
     background-color: #F5EBE0;
     padding: 10px;
-  }
+}
   
 #personalInfoDiv{
     border: 1px solid #ddd;
@@ -19,12 +19,16 @@ header nav {
     height: fit-content;
 }
 
-  /*Shipping info block style */
-  #shippingInfo {
-    background-color: #F5EBE0;
-    border-radius: 20px;
-    border: 1px solid #ddd;
-  }
+/*Shipping info block style */
+#shippingformDiv {
+  background-color: #F5EBE0;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
 
   #shippingInfoForm {
     margin-left: 10px;
@@ -49,6 +53,12 @@ header nav {
   /*Billing information block */
   #billinginfo {
     background-color: #F5EBE0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   }
   
   /* Style the credit card form inputs */
@@ -65,7 +75,6 @@ header nav {
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
-    margin-bottom: 10px;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -79,74 +88,96 @@ header nav {
   }
 
 #checkoutTable {
-    border-collapse: collapse;
+  border-collapse: collapse;
+}
+
+#checkoutTable input[type="number"] {
+width: 40px;
+}
+
+#checkoutTable label {
+display: block;
+}
+
+#checkoutTable th {
+text-align: left;
+padding: 10px;
+background-color: #F5EBE0;
+}
+
+#checkoutTable td {
+padding: 5px;
+vertical-align: middle;
+}
+
+#checkoutTable tfoot td {
+font-weight: bold;
+text-align: right;
 }
 
 figcaption {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #checkoutTable tbody tr td:first-child {
-    border-width: 1px 0px;
+  border-width: 1px 0px;
 }
 
 #checkoutTable tbody tr td:nth-child(2) {
-    border-width: 1px 0 0 0;
+  border-width: 1px 0 0 0;
 }
 
 #checkoutTable tbody tr td:nth-child(3) {
-    border-width: 1px 0px;
+  border-width: 1px 0px;
 }
 
 #checkoutTable tbody tr td:nth-child(4) {
-    border-width: 1px 0px;
-}
-
-.priceCol {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#quantity1, #quantity2, #quantity3, #quantity4, #quantity5, #quantity6 {
-    width: 35px;
-}
-
-#subtotalDiv1, #subtotalDiv2, #subtotalDiv3, #subtotalDiv4, #subtotalDiv5, #subtotalDiv6 {
-    display: flex;
-    justify-content: center;
+  border-width: 1px 0px;
 }
 
 /* Update and reset cart buttons */
 #divBtn button {
-    background-color: #DBA39A;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
+  background-color: #DBA39A;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
     margin-top: 10px;
-    margin-right: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-
-#subtotalDiv, #totalDiv, #taxDiv {
-    display: flex;
-    justify-content: center;
+  margin-right: 10px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-main {
-    display: flex;
-    justify-content: space-evenly;
+#divBtn, #infoBtn {
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
 }
 
-#infoBtn {
-    display: flex;
-    justify-content: right;
-    margin-top: 15px;
+.priceCol {
+display: flex;
+align-items: center;
+}
+
+#subtotalDiv,
+#taxDiv,
+#totalDiv,
+#subtotalDiv1,
+#subtotalDiv2,
+#subtotalDiv3,
+#subtotalDiv4,
+#subtotalDiv5,
+#subtotalDiv6 {
+display: flex;
+justify-content: center;
+}
+
+#cartSection img {
+display: block;
+margin: 0 auto;
 }
 
 .error {
-    border-color: red;
-    background-color: #fdd;
+  border-color: red;
+  background-color: #fdd;
 }
