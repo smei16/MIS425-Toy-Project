@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', function(){
         };
     });
     
-    let submit = document.querySelector('#submit');
-    submit.addEventListener('click', function(e){
+    const checkout = document.querySelector('#checkout');
+    checkout.addEventListener('submit', function(e){
         e.preventDefault();
         const subtotal1 = document.querySelector('#subtotal1');
         let subtotal1Int = parseInt(subtotal1.textContent);
@@ -123,7 +123,6 @@ document.addEventListener('DOMContentLoaded', function(){
         totalP.textContent = totalMathRounded;
     });
 
-    const checkout = document.querySelector('#checkout');
     checkout.addEventListener('reset', function(){
         let subtotalP = document.querySelector('#subtotalFoot');
         let taxP = document.querySelector('#taxP');
