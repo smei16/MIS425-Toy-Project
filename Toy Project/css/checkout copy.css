@@ -43,39 +43,29 @@ header nav {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-  #shippingInfoForm {
-    margin-left: 10px;
-  }
-  
-  /*Styling for form input labels*/
-  label {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  /* Form input style*/
-  input[type="text"],
-  input[type="number"],
-  input[type="tel"],
-  input[type="email"] {
-    padding: 10px;
-    border-radius: 3px;
-    border: 1px solid #ddd;
-    margin-bottom: 15px;
-  }
-  
-  /*Billing information block */
-  #billinginfo {
-    background-color: #F5EBE0;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  }
+#shippingInfoForm {
+  margin-left: 10px;
+}
 
-  #creditDiv {
+/*Styling for form input labels*/
+label {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Form input style*/
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"] {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+/*Billing information block */
+#billinginfo {
   background-color: #F5EBE0;
   border: 1px solid #ddd;
   border-radius: 20px;
@@ -83,33 +73,43 @@ header nav {
   padding-right: 5px;
   margin-bottom: 20px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Style the credit card form inputs */
-  #creditDiv input[type="text"],
-  #creditDiv input[type="number"] {
-    width: 25%;
-    margin-right: 10px;
-  }
-  
-  /* Submit and reset buttons */
-  #infoBtn button {
-    background-color: #DBA39A;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  #infoBtn button:hover {
-    background-color: #f0bdbd;
-  }
+}
 
-  #infoBtn p {
-    font-style: italic;
-  }
+#creditDiv {
+background-color: #F5EBE0;
+border: 1px solid #ddd;
+border-radius: 20px;
+padding-left: 5px;
+padding-right: 5px;
+margin-bottom: 20px;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the credit card form inputs */
+#creditDiv input[type="text"],
+#creditDiv input[type="number"] {
+  width: 25%;
+  margin-right: 10px;
+}
+
+/* Submit and reset buttons */
+#infoBtn button {
+  background-color: #DBA39A;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+  
+#infoBtn button:hover {
+  background-color: #f0bdbd;
+}
+
+#infoBtn p {
+  font-style: italic;
+}
 
 #checkboxDiv {
   margin-bottom: 10px;
@@ -135,7 +135,6 @@ background-color: #F5EBE0;
 
 #checkoutTable td {
 padding: 5px;
-vertical-align: middle;
 }
 
 #checkoutTable tfoot td {
@@ -177,6 +176,10 @@ figcaption {
   cursor: pointer;
 }
 
+#divBtn button:hover {
+  background-color: #f0bdbd;
+}
+
 #divBtn, #infoBtn {
   display: flex;
   justify-content: right;
@@ -212,7 +215,7 @@ margin: 0 auto;
 }
 
 #toy1Quantity, #toy2Quantity, #toy3Quantity, #toy4Quantity, #toy5Quantity, #toy6Quantity {
-  display: flex;
+  display: inline-block;
   align-items: center;
 }
 
