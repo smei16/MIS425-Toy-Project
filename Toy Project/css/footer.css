@@ -1,11 +1,25 @@
+#footer h2{
+    text-align: center;
+}
+
+#footer p{
+    text-align: left;
+}
 #footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-  }
+    padding: 0;
+}
   
-  #footer a {
+#footer a {
     color: black;
     margin: 0 10px;
-  }
+    text-decoration: none;
+    text-align: center;
+}
+
+#footer a:hover {
+    color: #DBA39A;
+}
